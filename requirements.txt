@@ -1,8 +1,21 @@
+# 基础依赖
 pandas==1.5.3
 numpy==1.23.5
-opendatasets==0.1.22
 Pillow==9.4.0
-torch==2.0.0
-torchsummary==1.5.1
-torchvision==0.15.1
 tqdm==4.65.0
+
+# 深度学习框架
+torch==2.0.0
+torchvision==0.15.1
+torchsummary==1.5.1
+
+# 数据处理与API相关
+opendatasets==0.1.22
+fastapi==0.95.2
+uvicorn==0.22.0
+python-multipart==0.0.6  # FastAPI文件上传依赖
+requests==2.31.0  # 用于API调用
+
+# 其他工具
+streamlit==1.24.0  # 如果需使用Streamlit界面
+matplotlib==3.7.1  # 可用于可视化
